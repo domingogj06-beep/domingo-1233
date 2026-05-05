@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Elite Tech | Smartphones Gama Alta</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="logo">ELITE TECH <span>✦ premium</span></div>
+    <div class="nav-links">
+      <a href="#">Inicio</a>
+      <a href="#productos">Gama Alta</a>
+      <a href="#extras">Tecnología</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    
+    <!-- SECCIÓN HERO (imagen + texto editables) -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1 contenteditable="true" class="editable-title">Lo último en innovación</h1>
+        <p contenteditable="true" class="editable-sub">Potencia, diseño y rendimiento sin límites. Los teléfonos más avanzados del mercado.</p>
+      </div>
+      <div class="hero-image-area" id="heroImageArea">
+        <img id="heroImg" src="https://placehold.co/400x240/2c3e66/white?text=Hero+Phone" alt="Hero Phone">
+        <div class="img-controls">
+          <input type="file" class="img-upload-input" accept="image/*" data-target="heroImg">
+          <button class="img-btn reset-img" data-target="heroImg">Restaurar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS / TARJETAS (GAMA ALTA) -->
+    <h2 class="section-title" id="productos"> Colección insignia</h2>
+    <div class="cards-grid" id="cardsContainer">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <div class="card-img-area">
+          <img class="product-img" src="https://placehold.co/300x200/1e2a3e/white?text=Phone+X" alt="Phone X">
+          <div class="img-controls mini-controls">
+            <input type="file" class="img-upload-input" accept="image/*" data-target="product">
+            <button class="img-btn reset-img" data-target="product">Reset</button>
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="card-title" contenteditable="true">Iphone 17 pro</div>
+          <div class="card-desc" contenteditable="true">Diseño unibody de aluminio forjado en caliente para capacidades pro fuera de serie.</div>
+          <div class="price-tag" contenteditable="true">RD$73,695</div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <div class="card-img-area">
+          <img class="product-img" src="https://placehold.co/300x200/2c3e66/white?text=Ultra+Edge" alt="Ultra Edge">
+          <div class="img-controls mini-controls">
+            <input type="file" class="img-upload-input" accept="image/*" data-target="product">
+            <button class="img-btn reset-img" data-target="product">Reset</button>
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="card-title" contenteditable="true">Galaxy s26 ultra 5g</div>
+          <div class="card-desc" contenteditable="true">Pantalla de 6.9 pulgadas AMOLED LTPO 120Hz, procesador Snapdragon 8 Elite Gen 5, y una cámara principal de 200MP.</div>
+          <div class="price-tag" contenteditable="true">RD$ 122,914.68</div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <div class="card-img-area">
+          <img class="product-img" src="https://placehold.co/300x200/4a3f2e/white?text=Elite+Edition" alt="Elite Edition">
+          <div class="img-controls mini-controls">
+            <input type="file" class="img-upload-input" accept="image/*" data-target="product">
+            <button class="img-btn reset-img" data-target="product">Reset</button>
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="card-title" contenteditable="true">Pixel 10 Pro XL</div>
+          <div class="card-desc" contenteditable="true">Pantalla OLED LTPO de 6.8", chip Tensor G5 de 3nm, 16GB RAM y carga rápida de 45W.</div>
+          <div class="price-tag" contenteditable="true">RD$56,500</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOQUES ADICIONALES: texto e imágenes editables -->
+    <h2 class="section-title" id="extras">Tecnología de vanguardia</h2>
+    <div class="extra-sections">
+      <div class="info-block">
+        <h3 contenteditable="true">Ugreen Nexode 145W (25,000mAh)</h3>
+        <div class="editable-text" contenteditable="true">
+          Capacidad de 25,000 mAh (90 Wh) con potencia total de hasta 145W (USB-C1: 140W máx, USB-C2: 65W). Puertos: 2 USB-C y 1 USB-A. Peso aproximado de 510g a 560g (18-20 oz). Incluye pantalla digital TFT inteligente.
+        </div>
+        <div class="img-upload-placeholder">
+          <img id="extraImg1" src="https://placehold.co/300x160/2c3e66/white?text=Batería+AI" alt="Batería" style="max-width:100%; border-radius:1rem;">
+          <div class="img-controls">
+            <input type="file" class="img-upload-input" accept="image/*" data-target="extraImg1">
+            <button class="img-btn reset-img" data-target="extraImg1">Restaurar</button>
+          </div>
+        </div>
+      </div>
+      <div class="info-block">
+        <h3 contenteditable="true">Sony A6700</h3>
+        <div class="editable-text" contenteditable="true">
+          Cámara híbrida destacada para video y vlogs con estabilización avanzada.
+        </div>
+        <div class="img-upload-placeholder">
+          <img id="extraImg2" src="https://placehold.co/300x160/2c3e66/white?text=Cámara+Triple" alt="Cámara" style="max-width:100%; border-radius:1rem;">
+          <div class="img-controls">
+            <input type="file" class="img-upload-input" accept="image/*" data-target="extraImg2">
+            <button class="img-btn reset-img" data-target="extraImg2">Restaurar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer decorativo -->
+    <footer style="margin-top: 3rem; text-align: center; color:#5a687c; padding: 1.5rem; border-top: 1px solid #e2e8f0;">
+      <p>Wyden</p>
+      <p style="font-size:0.8rem;">Elite Tech · Gama Alta · Personalización total</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
